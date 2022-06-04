@@ -1,0 +1,95 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: skyblue;
+    }
+    
+    .heading-name h2 {
+        color: black;
+        font-size: 20px;
+        float: left;
+        font-style: italic;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    
+    .heading-navigation .navbar {
+        float: right;
+        padding-top: 35px;
+        padding-right: 15px;
+    }
+    
+    .navbar a {
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 50px;
+        font-style: italic;
+    }
+    
+    .navbar a:hover {
+        background-color: aquamarine;
+    }
+    
+    hr {
+        clear: both;
+    }
+    
+    p {
+        text-align: justify;
+        padding: 10px;
+        font-size: x-large;
+        line-height: 1.6em;
+    }
+    
+    .image-lancetrans img {
+        width: 500px;
+        border: 3px solid white;
+        margin-left: 10px;
+    }
+    
+    span {
+        font-style: italic;
+        font-size: smaller;
+    }
+    
+    .eros {
+        background-color: brown;
+        border: 1px solid black;
+    }
+    
+    .tete {
+        color: blue;
+        font-size: bold;
+    }
+    
+    footer {
+        box-sizing: border-box;
+        grid-template-columns: 1fr 1fr;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .address {
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+    
+    .auteur {
+        float: right;
+        padding-top: 10px;
+        padding-right: 15px;
+    }
+    
+    marquee {
+        margin-top: 20px;
+        font-style: italic;
+    }
+    
+    @media(max-width: 600px) {
+        nav {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
